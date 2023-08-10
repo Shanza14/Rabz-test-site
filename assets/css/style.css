@@ -131,8 +131,6 @@ body {
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
-
 a,
 button { transition: var(--transition-1); }
 
@@ -732,10 +730,10 @@ footer {
   padding-block: var(--section-padding);
 }
 
-/* .footer-top .container {
+.container {
   display: flex;
   justify-content: space-between;
-} */
+} 
 
 .footer .logo { margin-bottom: 20px; }
 
@@ -836,6 +834,44 @@ footer {
   align-items: center;
   gap: 15px;
 }
+  
+/*product window*/
+.close-btn{
+  line-height: 150%;
+  margin-left: auto;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5rem;
+  padding-top: 0;
+  }
+  .window-img{
+    width: 100vw;
+  }
+  #window-product-title{
+    line-height: 150%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
+  }
+  #window-product-code{
+    line-height: 150%;
+    font-size: 1.25rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
+  }
+  #window-product-description{
+    font-size: 1rem;
+    line-height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+  } 
+  .close-btn :hover{
+    color: var(--middle-blue-green);
+  }
 
 
 
@@ -894,7 +930,8 @@ footer {
 
   .footer-list { width: calc(50% - 20px); }
 
-}
+
+  
 
 
 
@@ -940,6 +977,51 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
+
+
+  .window-container{
+    max-width: 520px;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-style: inherit;
+  }
+  .close-btn{
+    line-height: 150%;
+    max-width: 520px;
+    margin-left: auto;
+    font-size: larger;
+    font-weight: bold;
+    padding: 1rem;
+  }
+  .window-img{
+    width: 500px;
+    height: 100%;
+  }
+
+  #window-product-title{
+    line-height: 150%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  #window-product-code{
+    line-height: 150%;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  #window-product-description{
+    font-size: 1rem;
+    line-height: 100%;
+    padding-left: 1rem;
+    
+  } 
 }
 
 
@@ -1047,6 +1129,58 @@ footer {
       justify-content: center;
       align-items: center;
     }
+
+
+
+
+    .window-container{
+      max-width: 700px;
+      gap: 3rem;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+    #product-window{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .close-btn{
+      line-height: 150%;
+      max-width: 700px;
+      margin-left: auto;
+      font-size: larger;
+      font-weight: bold;
+      padding: 1rem;
+    }
+    .window-img{
+      width: 350px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #window-product-title{
+      line-height: 150%;
+      font-size: 2rem;
+      font-weight: bold;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+    }
+    #window-product-code{
+      line-height: 150%;
+      font-size: 1.5rem;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+    }
+    #window-product-description{
+      font-size: 1rem;
+      line-height: 150%;
+      padding-left: 1rem;
+      
+    } 
 
 }
 
@@ -1204,7 +1338,7 @@ footer {
     padding-block: 20px;
   }
 
-  .navbar-link:is(:hover, :focus) { color: var(--middle-blue-green); }
+  .navbar-link:is(:hover, :focus) { color: var(--middle-blue-green) }
   .reviewer:is(:hover, :focus) { color: var(--middle-blue-green); }
 
 
@@ -1260,7 +1394,7 @@ footer {
 
   .newsletter-card .card-form { max-width: 650px; }
 
-}
+
 
 /* Testimonials */
 .Testimonials{
@@ -1277,6 +1411,18 @@ footer {
   margin-left: auto;
 }
 
+.window-container{
+  max-width: 890px;
+  gap: 4rem;
+}
+.close-btn{
+  max-width: 890px;
+}
+.window-img{
+  width: 450px;
+}
+ 
+}
 
 /**
  * responsive for larger than 1200px screen
@@ -1358,4 +1504,17 @@ footer {
       align-items: center;
     }
 
-}
+    .window-container{
+      max-width: 1000px;
+      gap: 4rem;
+    }
+    .close-btn{
+      max-width: 1000px;
+    }
+    .window-img{
+      width: 500px;
+    }
+    
+
+
+  }}
