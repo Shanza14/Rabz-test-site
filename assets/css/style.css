@@ -247,6 +247,8 @@ h3 > a { color: inherit; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .nav-open-btn {
@@ -730,10 +732,10 @@ footer {
   padding-block: var(--section-padding);
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: space-between;
-} 
+}  */
 
 .footer .logo { margin-bottom: 20px; }
 
